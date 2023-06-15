@@ -1,0 +1,91 @@
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+  padding: 1em 2em 1em 3.5em !important;
+  margin: 0 0 2em !important;
+  position: relative !important;
+  background-color: #b81c23 !important;
+  color: white !important;
+  text-transform: uppercase !important;
+  border-top: 0px !important;
+  list-style: none outside !important;
+  width: auto !important;
+  word-wrap: break-word !important;
+  font-size: 16rem !important;
+}
+
+ul {
+  font-size: 16rem !important;
+  padding-left: 0rem !important;
+}
+
+li {
+  display: flex !important;
+}
+
+.wc-stripe-elements-field {
+  width: 100% !important;
+  height: 48rem !important;
+  margin-bottom: 24rem !important;
+  padding: 8rem 6rem 8rem 12rem !important;
+  border-radius: 0rem !important;
+  background-color: transparent !important;
+  color: #000 !important;
+  font-size: 16rem !important;
+  line-height: 1.5 !important;
+}
+
+.w-commerce-commerceboldtextblock .checkout-label {
+  font-size: 18rem;
+  font-weight: 500;
+  padding-left: 16rem;
+}
+
+.woocommerce-checkout #payment div.payment_box {
+  padding: 0rem !important;
+}
+
+.woocommerce-checkout #payment div.payment_box p {
+  padding-bottom: 16rem;
+}
+
+.woocommerce-checkout #payment div.form-row {
+  padding: 0rem !important;
+  margin: 0rem !important;
+}
+
+#billing_phone_field,
+#billing_company_field {
+  width: 100%;
+}
+
+a,
+.showlogin {
+  color: #b20a10;
+  text-decoration: none !important;
+}
+
+.w-commerce-commercecheckoutsummaryblockheader {
+  width: 100%;
+}
+
+.w-commerce-commercecheckoutshippingmethodslist.payment_methods
+  .w-commerce-commercecheckoutshippingmethoditem {
+  display: block !important;
+  width: 100%;
+}
+
+.payment_method_image {
+  display: flex;
+  column-gap: 16rem;
+}
+
+.w-commerce-commercecheckoutshippingmethoddescriptionblock {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.checkout-img {
+  width: 60rem;
+  height: 60rem !important;
+}

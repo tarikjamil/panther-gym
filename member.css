@@ -1,0 +1,127 @@
+.user-list {
+  list-style: none;
+  margin: 0;
+  margin-top:40rem;
+  padding: 0 !important;
+  display: grid;
+  grid-template-columns: 1fr 1fr !important;
+  column-gap: 24rem;
+  row-gap: 24rem;
+}
+li.user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-gap: 12rem;
+  padding: 24rem 20rem;
+  background-color: #fdfbf6;
+  width:100%
+  font-size: 18rem;
+  margin:0px !important;
+}
+
+.profil--name{
+  margin:0px !important;
+  font-size: 24rem !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  line-height: 100% !important;
+}
+
+.profil--email{
+  margin:0px !important;
+  line-height: 100% !important;
+  font-size: 14rem !important;
+}
+
+.profil--link{
+  padding:12rem 16rem;
+  display: block;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 14rem !important;
+  background-color: #b20a10;
+}
+
+input[type="submit"] {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #b20a10;
+  border-style: none;
+  border-radius: 0px 0px 0px 0px;
+  padding: 16px 40px;
+}
+
+.navbar .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: white !important;
+  color: black !important;
+  transition-property: background-color !important;
+  transition-duration: 200ms !important;
+  transition-timing-function: ease !important;
+}
+
+.section.is--blog-hero {
+  position: relative;
+}
+
+.is--membersearch {
+  background-color: #fdfbf6;
+  padding-bottom: 96rem;
+}
+
+.container-search--960 {
+  max-width: 960rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.search--wrapper {
+  padding: 40rem;
+  background-color: white;
+  margin-top: -24rem;
+  position: relative;
+  box-shadow: 0 0 50px 0 hsla(0, 0%, 0%, 0.1);
+}
+
+.input--field {
+  width: 80%;
+  margin-right: 10rem;
+  font-size: 18rem;
+  padding: 16rem 16rem 16rem 16rem;
+}
+.membership-search--form {
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .user-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .profil--name{
+    font-size: 18rem !important;
+  }
+
+  .input--field {
+    width: 100%;
+    margin-right: 0rem;
+  }
+
+  .membership-search--form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16rem;
+  }
+
+  .search--wrapper {
+    padding-left: 20rem;
+    padding-right:20rem;
+  }
+}

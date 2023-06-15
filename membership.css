@@ -1,0 +1,111 @@
+.navbar .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: white !important;
+  color: black;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.w-commerce-commerceaddtocartoutofstock {
+  width: 100%;
+  margin-top: -70rem !important;
+  padding-top: 20rem !important;
+  padding-right: 40rem !important;
+  padding-bottom: 20rem !important;
+  padding-left: 40rem !important;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: black;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: black;
+  background-color: hsla(0, 0%, 100%, 1) !important;
+  font-size: 18rem;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product_level_wrapper {
+  display: none !important;
+}
+
+.is--product-hero {
+  background-color: transparent !important;
+}
+
+#pa_membership-period {
+  padding: 16rem;
+  font-size: 16rem;
+  border-radius: 0px;
+}
+
+.value {
+  display: flex;
+  column-gap: 16rem;
+}
+
+.reset_variations {
+  font-size: 18rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #b20a10;
+  text-decoration: none !important;
+  padding: 16rem 40rem 16rem 40rem;
+  border-radius: 0 !important;
+}
+
+.variations tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.woocommerce-variation-price {
+  margin-top: 20rem;
+  font-size: 20rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.single_variation_wrap {
+  margin-bottom: 16rem;
+}
+
+.single_variation_wrap .quantity {
+  display: none;
+}
+
+.is--membership--hero {
+  background-color: #b20a10;
+}
+
+.section.is--membership--hero {
+  height: 400rem !important;
+  position: relative;
+}
+
+#wc-stripe-payment-request-wrapper,
+#wc-stripe-payment-request-button-separator {
+  display: none !important;
+}
+
+.section.is--relatedproducts {
+  background-color: #f5f5f5 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .section.is--membership--hero {
+    height: 200rem !important;
+    position: relative;
+  }
+}

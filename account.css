@@ -1,0 +1,184 @@
+#account-parent .elementor-shortcode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.mepr-nav-item {
+  padding: 0rem !important;
+}
+
+#mepr-account-nav {
+  max-width: 200rem;
+  margin-bottom: 0rem !important;
+}
+
+span.mepr-nav-item a {
+  display: block !important;
+  padding-left: 32rem !important;
+  padding-right: 32rem !important;
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+  border-radius: 0rem !important;
+  text-transform: uppercase;
+  font-size: 14rem;
+}
+
+.mp_wrapper .mp-form-row {
+  margin-bottom: 0rem;
+}
+
+#mepr_nav_tab_content_0 .mp_wrapper {
+  padding: 20rem !important;
+}
+
+.mepr-tab1-wrapper {
+  width: 100%;
+}
+
+.mp_wrapper:nth-child(2) {
+  width: 100%;
+}
+
+.mp_wrapper td,
+.mp_wrapper th {
+  padding: 8rem 16rem;
+  font-size: 18rem;
+  min-width: 120rem !important;
+  text-align: start;
+}
+
+td .button {
+  text-transform: uppercase;
+  color: #d50f16;
+  font-weight: 600;
+}
+
+#mepr_nav_tab_content_1 .mp_wrapper,
+.mp_wrapper:nth-child(2),
+.mepr-no-active-subscriptions,
+.mp-no-subs {
+  padding: 48rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: -1px !important;
+  z-index: 1;
+  left: -1px;
+}
+
+span.mepr-nav-item.mepr-active-nav-tab a {
+  background-color: white !important;
+  color: black;
+  border-color: white;
+  margin-right: -1px;
+}
+
+.mp-form-label {
+  font-size: 14rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 8rem;
+}
+.mepr-account-change-password {
+  display: flex;
+}
+
+.mepr-account-change-password a {
+  margin-left: auto;
+  margin-top: -32rem;
+  display: block;
+}
+
+.mepr_spacer {
+  display: none;
+}
+
+.mepr_mepr-address-country {
+  grid-column-start: span 2;
+}
+
+.mp_wrapper form {
+  display: grid;
+  grid-column-gap: 24rem;
+  grid-row-gap: 16rem;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14rem;
+}
+
+.wpkqcg_qrcode {
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 991px) {
+  #account-parent .elementor-shortcode {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mp_wrapper {
+    width: 100%;
+  }
+
+  #mepr-account-nav {
+    max-width: none;
+    width: 100%;
+  }
+
+  span.mepr-nav-item.mepr-active-nav-tab a {
+    margin-right: 0px;
+  }
+
+  .mp_wrapper form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24rem;
+  }
+
+  .mp_wrapper:nth-child(2),
+  .mepr-no-active-subscriptions,
+  .mp-no-subs {
+    margin-left: 0px !important;
+    padding: 20rem;
+    width: 100%;
+  }
+
+  .mepr-account-change-password a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0rem;
+    padding: 8rem;
+  }
+
+  .mp_wrapper {
+    min-height: auto;
+  }
+
+  #mepr_nav_tab_content_1 thead {
+    display: none;
+  }
+
+  #mepr_nav_tab_content_1 table {
+    width: 100%;
+  }
+
+  #mepr_nav_tab_content_1 tbody {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 16rem;
+  }
+
+  #mepr_nav_tab_content_1 tr {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 4rem;
+    padding-bottom: 20rem;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+  }
+
+  #mepr_nav_tab_content_1 td {
+    padding: 0rem;
+  }
+}

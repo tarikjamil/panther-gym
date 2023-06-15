@@ -1,0 +1,35 @@
+.navbar .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: black;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.search-relative {
+  max-width: none !important;
+}
+
+.btn--20.is--search-page {
+  position: absolute !important;
+  left: 462rem !important;
+  top: 0 !important;
+  right: auto !important;
+}
+
+[data-node-type="search-result-wrapper"] {
+  margin-top: 48rem;
+}
+
+@media screen and (max-width: 991px) {
+  .btn--20.is--search-page {
+    position: static !important;
+    left: auto !important;
+    top: 0 !important;
+    right: auto !important;
+  }
+}

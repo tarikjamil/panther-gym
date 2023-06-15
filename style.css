@@ -1,0 +1,332 @@
+.main-wrapper {
+  opacity: 0;
+}
+
+.logo--footer {
+  grid-column-start: span 2;
+}
+
+.shop--link {
+  position: relative;
+}
+
+.qrcode--navbar {
+  display: none !important;
+}
+
+.woocommerce-error {
+  font-size: 14rem !important;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
+.woocommerce-error li,
+.woocommerce-info li,
+.woocommerce-message li {
+  padding-left: 32rem !important;
+}
+
+#apply_coupon_form {
+  display: flex !important;
+  width: 100% !important;
+  flex-direction: column !important;
+  row-gap: 8rem !important;
+}
+
+.woocommerce-error::before {
+  top: 8rem !important;
+  left: 10rem !important;
+  display: none !important;
+}
+.shop--hover {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: #b20a10;
+  opacity: 0;
+  transition-property: opacity !important;
+  transition-duration: 200ms !important;
+  transition-timing-function: ease !important;
+  mix-blend-mode: multiply !important;
+  pointer-events: none !important;
+}
+
+.shop--link:hover .shop--hover {
+  opacity: 0.6;
+}
+
+.elementor-container {
+  padding: 0rem;
+}
+
+.elementor-column-gap-default
+  > .elementor-column
+  > .elementor-element-populated {
+  padding: 0px !important;
+}
+
+.navlink,
+.nav--dropdown-toggle,
+.cart--link,
+.search--link,
+.account--link {
+  color: inherit !important;
+}
+
+.navbar .menu--link-row {
+  background-color: white !important;
+}
+
+.navbar.is--scrolled .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: white;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.navbar.is--scrolled {
+  background-color: white !important;
+  color: black;
+}
+
+/* logo scrolling */
+.is--loop-fromright,
+.is--loop-fromleft {
+  max-width: none !important;
+  width: auto;
+  font-size: 10vw !important;
+}
+
+.is--loop-fromleft {
+  white-space: nowrap;
+  will-change: transform;
+  animation: is--loop-fromleft 80s linear infinite;
+  /* manipulate the speed of the marquee by changing "40s" line above*/
+}
+
+@keyframes is--loop-fromleft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.is--loop-fromright {
+  white-space: nowrap;
+  will-change: transform;
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+  color: transparent !important;
+  animation: is--loop-fromright 80s linear infinite;
+  /* manipulate the speed of the marquee by changing "40s" line above*/
+}
+
+@keyframes is--loop-fromright {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+#tribe-events {
+  max-width: 940rem !important;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200rem;
+  padding-bottom: 120rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+#cart-count {
+  font-size: 14rem;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: -20rem;
+  background-color: #b20a10;
+  color: white !important;
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+  border-radius: 100rem;
+}
+
+.footer-link:hover {
+  color: #b20a10 !important;
+}
+
+.cart--link {
+  position: relative;
+}
+
+@media screen and (max-width: 991px) {
+  .is--loop-fromright,
+  .is--loop-fromleft {
+    font-size: 20vw !important;
+  }
+
+  #tribe-events {
+    padding-top: 40rem;
+    padding-bottom: 120rem;
+  }
+
+  .navbar {
+    padding-left: 20rem;
+    padding-right: 40rem !important;
+  }
+}
+
+.whatmakes-link {
+  color: #fff !important;
+}
+
+.whatmakes--link-img {
+  height: 88rem !important;
+}
+
+.whatmakes--link-img:small {
+  height: 48rem !important;
+}
+
+.whatmakes--link-img:medium {
+  height: 72rem !important;
+}
+
+/*---------- FAQ -----------*/
+.faq--arrow {
+  height: 40rem;
+  width: 40rem;
+  display: flex;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: transform;
+}
+
+.faq--question-text h3 {
+  font-size: 20rem !important;
+  margin: 0rem !important;
+}
+
+.faq--question {
+  padding: 20rem 0rem 20rem 0rem !important;
+  color: inherit !important;
+  display: flex;
+}
+
+.faq--question .e-con-inner {
+  display: grid !important;
+  grid-auto-columns: 1fr !important;
+  grid-column-gap: 16rem !important;
+  grid-row-gap: 16px !important;
+  grid-template-columns: 1fr 40rem !important;
+  grid-template-rows: auto !important;
+}
+
+.faq--question.open .faq--arrow {
+  transform: rotate(180deg);
+}
+
+.faq--response {
+  overflow: hidden !important;
+  height: 0rem;
+}
+
+@media screen and (max-width: 991px) {
+  .faq--arrow {
+    height: 20rem;
+    width: 20rem;
+  }
+  .faq--question-text h3 {
+    font-size: 16rem !important;
+  }
+
+  .logo--footer {
+    grid-column-start: span 2;
+  }
+
+  .dropdown-link:hover,
+  .dropdown-link.w--current {
+    color: white !important;
+  }
+}
+
+#footer-newsletter button {
+  position: absolute !important;
+  left: auto !important;
+  right: 0rem !important;
+  padding-right: 0 !important;
+}
+
+#footer-newsletter input {
+  padding-left: 0rem !important;
+}
+
+.qrcode--navbar img {
+  box-shadow: none !important;
+  width: 40rem !important;
+  height: 40rem !important;
+}
+
+/*------ open cart ------ */
+.cc-window {
+  width: 100% !important;
+  max-width: 400rem;
+}
+
+.cc-header {
+  font-size: 16rem !important;
+}
+
+.cc-header .cc-inner-container {
+  padding: 0 24rem !important;
+  height: auto !important;
+}
+
+.cc-nav ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto;
+  display: flex;
+}
+
+.cc-nav li {
+  list-style: none !important;
+  display: inline-block !important;
+  margin-right: 24rem;
+  margin-left: 0 !important;
+  text-align: center !important;
+  font-size: 0 !important;
+  padding-top: 16rem;
+  margin-top: 0 !important;
+  line-height: 22rem !important;
+  height: auto;
+}
+
+.cc-compass {
+  display: none !important;
+}
+
+.btn--20.is--search {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.text-field.is--search-result {
+  border-radius: 0 !important;
+}

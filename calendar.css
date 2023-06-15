@@ -1,0 +1,161 @@
+.tribe-common-l-container.tribe-events-l-container {
+  padding: 0rem !important;
+  min-width: 100%;
+}
+
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-header--has-event-search
+  .tribe-events-c-events-bar {
+  background-color: transparent !important;
+}
+
+.calendar-filters {
+  color: #fff;
+  background-color: #b20a10;
+  display: flex;
+  width: 100%;
+}
+
+.calendar-filter-box {
+  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 32rem !important;
+}
+
+.calendar-view-option {
+  background-color: transparent !important;
+  padding: 12rem 0 !important;
+}
+
+.calendar-view-option a {
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  padding: 12rem 30rem !important;
+  font-size: 12rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  color: white !important;
+}
+
+.calendar-input input {
+  width: 100% !important;
+  background-color: transparent !important;
+  border: 0px !important;
+  padding: 12rem 16rem 12rem 40rem !important;
+  color: white !important;
+}
+
+.calendar-input input:placeholder {
+  color: white !important;
+}
+
+.calendar-input button {
+  display: none !important;
+}
+
+.tribe-events .tribe-events-c-events-bar__search-container {
+  background-color: transparent !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-c-search__input-control-icon-svg {
+  color: white;
+}
+
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-c-view-selector--tabs
+  .tribe-events-c-view-selector__content {
+  background-color: transparent;
+  padding: 0 !important;
+}
+
+.tribe-events-c-view-selector__list-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.tribe-events-c-view-selector__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  grid-column-gap: 12rem;
+  grid-row-gap: 12rem;
+}
+
+.tribe-events-c-view-selector__list-item a {
+  padding-top: 12rem !important;
+  padding-right: 30rem !important;
+  padding-bottom: 12rem !important;
+  padding-left: 30rem !important;
+  background-color: hsla(0, 0%, 100%, 0.1) !important;
+  font-size: 12rem !important;
+  line-height: 1 !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  color: white !important;
+  border-radius: 0 !important;
+}
+
+.calendar-input {
+  background-color: transparent !important;
+}
+
+.tribe-events-c-view-selector__list-item a:hover {
+  color: #b20a10 !important;
+}
+
+.tribe-events .tribe-events-c-view-selector__list-item-text {
+  color: inherit !important;
+  line-height: 1 !important;
+}
+
+.tribe-common-form-control-text.tribe-events-c-search__input-control.tribe-events-c-search__input-control--keyword {
+  background-color: transparent !important;
+  border-width: 0rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.tribe-events-c-view-selector__list-item-link:after {
+  background-color: transparent !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events
+  .tribe-events-header--has-event-search
+  .tribe-events-header__top-bar {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  grid-template-columns: auto 1fr auto;
+  margin-top: 48rem;
+  margin-bottom: 48rem;
+}
+
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-c-btn-border-small,
+.tribe-common--breakpoint-medium.tribe-common
+  a.tribe-common-c-btn-border-small {
+  padding: 8rem 16rem !important;
+  width: fit-content !important;
+  color: black !important;
+  border-radius: 0rem !important;
+}
+
+.table-condensed {
+  padding: 0rem !important;
+  margin: 0rem !important;
+  width: 100% !important;
+}
+
+.datepicker-months {
+  width: 100% !important;
+}
+
+@media screen and (max-width: 991px) {
+  .calendar-filter-box {
+    width: auto !important;
+    border-right-style: none !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-bottom-color: hsla(0, 0%, 100%, 0.1) !important;
+  }
+}

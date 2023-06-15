@@ -1,0 +1,248 @@
+html {
+  margin-top: 0px !important;
+}
+
+.navbar .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: white !important;
+  color: black !important;
+  transition-property: background-color !important;
+  transition-duration: 200ms !important;
+  transition-timing-function: ease !important;
+}
+
+.section.is--blog-hero {
+  position: relative;
+}
+
+.section.is--blog-hero h4 {
+  margin-bottom: 0rem !important;
+  font-size: 24rem !important;
+  font-weight: 500 !important;
+}
+
+.container--1248.is--center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.container--1248.is--center form {
+  margin-bottom: 0px !important;
+}
+
+.container--1248.confirmation {
+  margin-top: -40rem;
+  padding: 40rem;
+  font-weight: 600;
+  font-size: 18rem;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 960rem;
+  box-shadow: 0 0 50px 0 hsla(0, 0%, 0%, 0.1);
+}
+.available-actions-info {
+  font-size: 20rem;
+}
+.available-actions-info .yes {
+  color: green;
+  font-weight: 600;
+}
+.available-actions-info .no {
+  color: red;
+  font-weight: 600;
+}
+.available-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16rem;
+  grid-row-gap: 16rem;
+  justify-content: center;
+  gap: 16rem;
+  margin-top: 20rem;
+}
+
+.available-actions input {
+  width: 100%;
+}
+.w3-container {
+  order: 2;
+  text-align: start;
+}
+.w3-bar {
+  margin-top: 0rem;
+  display: flex;
+  gap: 0;
+}
+.w3-button {
+  padding: 10rem 10rem;
+  background: white !important;
+  color: black !important;
+  border: 1px solid black !important;
+  bottom: -1px !important;
+  position: relative !important;
+}
+.w3-button.w3-active {
+  background: black !important;
+  color: white !important;
+}
+.w3-container.w3-border.tab {
+  border: 1px solid black;
+  padding: 40rem;
+}
+
+.user-details-table img {
+  width: 100rem;
+  height: 100rem;
+}
+
+table.user-details-table {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 1px solid black;
+  width: 100%;
+}
+table.user-details-table th {
+  color: black !important;
+  text-align: start;
+  border-bottom: 1px solid black;
+}
+
+table.user-details-table td {
+  border-bottom: 1px solid black !important;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+span.status {
+  font-weight: 600;
+  font-size: 20rem;
+}
+
+span.status.active {
+  color: greenyellow;
+  text-shadow: 1px 1px 10px black;
+}
+
+span.type {
+  color: darkblue;
+  font-weight: 600;
+  font-size: 20rem;
+}
+
+.not-valid-user {
+  display: block;
+  border: 1px solid red;
+  color: red;
+  padding: 20rem;
+  font-weight: bold;
+  background: antiquewhite;
+  margin-top: 20rem;
+  width: 100%;
+  max-width: 460rem;
+  order: 1;
+  font-size: 20rem;
+  margin-bottom: 20rem;
+}
+
+.no-membership-hide {
+  display: none;
+}
+ul {
+  font-size: 20rem;
+}
+input[type="submit"] {
+  font-size: 18rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #b20a10;
+  border-style: none;
+  border-radius: 0px 0px 0px 0px;
+  padding: 16rem 40rem;
+  cursor: pointer;
+}
+
+.section.is--member-details {
+  background-color: #fdfbf6;
+  padding-bottom: 96rem;
+}
+
+@media screen and (max-width: 991px) {
+  .container--1248.is--center {
+    padding-bottom: 24rem;
+    row-gap: 8rem;
+    flex-direction: column;
+  }
+
+  .section.is--blog-hero h4 {
+    font-size: 16rem !important;
+  }
+
+  .container--1248.is--center form {
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 8rem;
+  }
+
+  .container--1248.is--center input {
+    width: 100% !important;
+    margin-right: 0px !important;
+  }
+
+  .container--1248.confirmation {
+    padding: 20rem;
+  }
+
+  .available-actions {
+    grid-template-columns: 1fr;
+  }
+  .w3-bar {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .w3-container.w3-border.tab {
+    padding: 20rem;
+  }
+
+  .user-details-table tr {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+  }
+
+  .user-details-table th {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    line-height: 2;
+  }
+
+  .user-details-table td {
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+    font-size: 16rem;
+  }
+
+  span.type,
+  span.status {
+    font-size: 18rem;
+  }
+
+  .user-details-table img {
+    width: 100%;
+    height: auto;
+  }
+
+  tr ul {
+    font-size: 16rem !important;
+  }
+}

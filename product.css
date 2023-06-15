@@ -1,0 +1,263 @@
+.navbar .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: black;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.w-commerce-commerceaddtocartoutofstock {
+  width: 100%;
+  margin-top: -70rem !important;
+  padding-top: 20rem !important;
+  padding-right: 40rem !important;
+  padding-bottom: 20rem !important;
+  padding-left: 40rem !important;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: black;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: black;
+  background-color: hsla(0, 0%, 100%, 1) !important;
+  font-size: 18rem;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.product_level_wrapper {
+  display: none !important;
+}
+
+.is--product-hero {
+  background-color: transparent !important;
+}
+
+#pa_membership-period {
+  padding: 16rem;
+  font-size: 16rem;
+  border-radius: 0px;
+}
+
+.value {
+  display: flex;
+  column-gap: 16rem;
+}
+
+.reset_variations {
+  font-size: 18rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #b20a10;
+  text-decoration: none !important;
+  padding: 16rem 40rem 16rem 40rem;
+  border-radius: 0 !important;
+}
+
+.variations tr {
+  display: flex;
+  flex-direction: column;
+}
+
+.woocommerce-variation-price {
+  margin-top: 20rem;
+  font-size: 20rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.single_variation_wrap {
+  margin-bottom: 16rem;
+}
+
+.single_variation_wrap .quantity {
+  display: none;
+}
+
+.shop--link-category a {
+  color: inherit !important;
+}
+
+.slider--products-wrapper {
+  width: 100%;
+  max-width: 600rem;
+}
+
+.navbar--logo-img {
+  height: 85rem !important;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar--logo-img {
+    height: 48rem !important;
+  }
+}
+
+.hidden-image {
+  display: none;
+}
+
+.splide__list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.slider1 {
+  overflow: hidden;
+}
+
+.splide {
+  visibility: visible !important;
+}
+
+.splide__slide {
+  width: 100%;
+}
+
+#wc-square-digital-wallet {
+  max-width: 100% !important;
+  overflow: hidden !important;
+  margin-bottom: 8rem !important;
+  padding-top: 0rem !important;
+}
+
+.w-commerce-commerceaddtocartform br {
+  display: none;
+}
+
+#wc-square-wallet-divider {
+  display: none !important;
+}
+
+.gpay-card-info-container-fill .gpay-card-info-iframe,
+.gpay-card-info-container-fill-new-style .gpay-card-info-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.w-commerce-commerceaddtocartoptionpillgroup {
+  flex-wrap: wrap !important;
+  row-gap: 8rem !important;
+}
+
+.custom-product-gallery {
+  display: flex;
+  overflow-x: auto;
+}
+
+.custom-product-gallery a {
+  margin-right: 10px;
+}
+
+.custom-product-gallery img {
+  max-width: 100%;
+}
+
+.variation-gallery-thumbnails {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.variation-gallery-thumbnail {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+#wc-stripe-payment-request-wrapper,
+#wc-stripe-payment-request-button-separator {
+  display: none !important;
+}
+
+.splide__pagination {
+  display: none !important;
+}
+
+.slider1 {
+}
+
+.is--thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.splide__arrows {
+  display: none !important;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: auto;
+  top: auto;
+  z-index: 2;
+}
+
+.splide__arrow {
+  z-index: 2 !important;
+  color: white !important;
+  padding: 16rem !important;
+  background-color: transparent !important;
+}
+
+.splide__arrow svg {
+  height: 24rem;
+}
+
+.splide__arrow.splide__arrow--prev svg {
+  rotate: 180deg;
+}
+
+.sticky {
+  position: sticky;
+  top: 48rem;
+}
+
+#thumbnails .is--active {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.thumbnails-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+li {
+  font-size: inherit !important;
+}
+
+ul {
+  font-size: inherit !important;
+}
+
+@media screen and (max-width: 767px) {
+  .sticky {
+    position: relative;
+    top: 0rem;
+  }
+
+  .richtext ul {
+    font-size: 18rem !important;
+  }
+
+  .section.is--product-hero {
+    padding-top: 48rem !important;
+  }
+}

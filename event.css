@@ -1,0 +1,40 @@
+.navbar .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: white !important;
+  color: black;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+.tribe-events-event-image img {
+  width: 100;
+  height: auto !important;
+}
+
+.single-tribe_events
+  .tribe-events
+  .tribe-events-c-subscribe-dropdown__container,
+.tribe-block__events-link
+  .tribe-events
+  .tribe-events-c-subscribe-dropdown__container {
+  width: auto !important;
+}
+
+.single-tribe_events .tribe-events-c-subscribe-dropdown__button {
+  width: 230rem;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.single-tribe_events .tribe-events-c-subscribe-dropdown__button button {
+  width: auto !important;
+  background-color: transparent;
+  padding: 0px !important;
+  color: inherit;
+  font-size: 16rem !important;
+}
