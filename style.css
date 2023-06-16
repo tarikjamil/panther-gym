@@ -347,6 +347,8 @@
 
 .cc-body a {
   font-family: Rajdhani, sans-serif !important;
+  text-transform: uppercase !important;
+  line-height: 1 !important;
 }
 
 .cc-coupon-form .cc-coupon-btn{
