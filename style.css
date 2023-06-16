@@ -330,3 +330,13 @@
 .text-field.is--search-result {
   border-radius: 0 !important;
 }
+
+
+<!-- /*---------- Cart -----------*/ -->
+.cc-window-wrapper .cc-button{
+  background-color: #b20a10 !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  width: 100% !important;
+}
+<!-- /*---------- end of cart -----------*/ -->
