@@ -366,4 +366,8 @@
 .cc-up-sells-image img{
   height: 100% !important;
 }
+
+.nav--dropdown-icon{
+  display: none !important;
+}
 <!-- /*---------- end of cart -----------*/ -->
