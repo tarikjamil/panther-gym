@@ -351,7 +351,11 @@
   width: 100% !important;
 }
 
-.cc-up-sells-image{
-  height: max-content !important;
+.cc-up-sells-image a{
+  height: 100% !important;
+}
+
+.cc-up-sells-image img{
+  height: 100% !important;
 }
 <!-- /*---------- end of cart -----------*/ -->
