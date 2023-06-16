@@ -333,7 +333,7 @@
 
 
 <!-- /*---------- Cart -----------*/ -->
-.cc-window-wrapper .cc-button{
+.cc-window-wrapper .cc-button, .cc-window-wrapper .single_add_to_cart_button{
   background-color: #b20a10 !important;
   color: #fff !important;
   text-transform: uppercase !important;
