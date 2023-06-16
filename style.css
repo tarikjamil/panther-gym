@@ -349,10 +349,12 @@
   color: #b20a10 !important;
   text-transform: uppercase !important;
   width: 100% !important;
+  font-family: Rajdhani, sans-serif !important;
 }
 
 .cc-up-sells-image a{
   height: 100% !important;
+  font-family: Rajdhani, sans-serif !important;
 }
 
 .cc-up-sells-image img{
