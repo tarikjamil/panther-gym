@@ -345,7 +345,7 @@
   background-color: #fff !important;
 }
 
-.cc-body a {
+.cc-body a, .cc_sfl_btn a.save_for_later_btn {
   font-family: Rajdhani, sans-serif !important;
   text-transform: uppercase !important;
   line-height: 1 !important;
