@@ -343,4 +343,11 @@
 .cc-body {
   background-color: #fff !important;
 }
+
+.cc-coupon-form .cc-coupon-btn{
+  background-color: white !important;
+  color: #b20a10 !important;
+  text-transform: uppercase !important;
+  width: 100% !important;
+}
 <!-- /*---------- end of cart -----------*/ -->
