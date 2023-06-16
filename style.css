@@ -350,4 +350,8 @@
   text-transform: uppercase !important;
   width: 100% !important;
 }
+
+.cc-up-sells-image{
+  height: max-content !important;
+}
 <!-- /*---------- end of cart -----------*/ -->
