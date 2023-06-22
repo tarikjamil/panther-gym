@@ -1,0 +1,22 @@
+.wc-bookings-date-picker .ui-datepicker-header{
+    background-color: #b20a10 !important;
+}
+
+.wc-bookings-date-picker .ui-widget-content {
+    background-color:transparent !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker th {
+    background-color: transparent !important;
+    color:black !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.bookable a, .wc-bookings-date-picker .ui-datepicker td.partial_booked a {
+    background-color: #22b176 !important;
+    color:white !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker td.bookable-range .ui-state-default {
+    background-color: #22b176 !important;
+    color:white !important;
+}
