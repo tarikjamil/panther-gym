@@ -25,3 +25,22 @@
 .wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev, .wc-bookings-date-picker .ui-datepicker .ui-datepicker-next {
     background:transparent !important;
 }
+
+.block-picker {
+    border-top-width: 1px !important;
+    border-left-width: 1px !important;
+    border-color: #b20a10 !important;
+    border-style: solid !important;
+}
+
+.block-picker .block {
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-color: #b20a10 !important;
+    border-style: solid !important;
+}
+
+.wc-bookings-booking-form .block-picker li:nth-child(odd) a, .wc-bookings-booking-form .block-picker li:nth-child(even) a {
+    background:white !important;    
+}
+
