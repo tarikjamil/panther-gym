@@ -26,5 +26,18 @@
     background:transparent !important;
 }
 
+.is--membership--hero {
+    background-color: #b20a10;
+  }
+  
+  .section.is--membership--hero {
+    height: 400rem !important;
+    position: relative;
+  }
 
-
+  @media screen and (max-width: 767px) {
+    .section.is--membership--hero {
+      height: 200rem !important;
+      position: relative;
+    }
+  }
