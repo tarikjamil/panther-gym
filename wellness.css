@@ -1,5 +1,6 @@
 .wc-bookings-date-picker .ui-datepicker-header{
     background-color: #b20a10 !important;
+    background-image: none !important;
 }
 
 .wc-bookings-date-picker .ui-widget-content {
