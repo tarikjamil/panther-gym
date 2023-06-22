@@ -10,6 +10,12 @@
     transition-timing-function: ease;
   }
 
+  .wc-bookings-date-picker{
+    padding: 0px !important;
+  }
+  .ui-corner-all {
+    border-radius: 0px !important;
+  }
 .wc-bookings-date-picker .ui-datepicker-header{
     background-color: #b20a10 !important;
     background-image: none !important;
