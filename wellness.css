@@ -21,3 +21,7 @@
     background-color: #239e57 !important;
     color:white !important;
 }
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev, .wc-bookings-date-picker .ui-datepicker .ui-datepicker-next {
+    background:transparent !important;
+}
