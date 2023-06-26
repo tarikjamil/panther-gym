@@ -16,3 +16,12 @@
   flex-direction: column;
   color: white;
 }
+
+.heading--80 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 80rem;
+  font-weight: 700;
+  line-height: 1;
+}
