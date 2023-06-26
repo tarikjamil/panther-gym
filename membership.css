@@ -107,6 +107,11 @@
   display: none !important;
 }
 
+.shop--link-category,
+.shop--link-price {
+  display: none !important;
+}
+
 @media screen and (max-width: 767px) {
   .section.is--membership--hero {
     height: 200rem !important;
