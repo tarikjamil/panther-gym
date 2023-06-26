@@ -9,4 +9,6 @@
 
 .section.is--membership--hero {
   background-color: #b20a10;
+  display: flex;
+  padding: 20rem;
 }
