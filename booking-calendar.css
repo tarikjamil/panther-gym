@@ -25,3 +25,14 @@
   font-weight: 700 !important;
   line-height: 1 !important;
 }
+
+.wc-bookings-availability-calendar-day
+  .wc-bookings-availability-calendar-day-item
+  .wc-bookings-availability-calendar-day-item-title {
+  font-size: 14px;
+  cursor: default;
+  text-align: center;
+  background-color: #b20a10;
+  border-radius: 100rem;
+  color: white;
+}
