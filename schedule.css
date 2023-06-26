@@ -207,10 +207,11 @@ div.book-now-lightbox.hidden {
   appearance: none; /* Remove default select arrow */
   -webkit-appearance: none; /* For Safari */
   -moz-appearance: none; /* For Firefox */
+  /* Set custom arrow */
   background: url("https://uploads-ssl.webflow.com/6434424375de79147272efa4/649947c5e973d8c6cbfb37dd_Vector%201%20(Stroke).png")
-    no-repeat right center; /* Custom arrow */
-  background-size: 20rem;
-  padding-right: 20rem; /* Make room for the custom arrow */
+    no-repeat;
+  background-position: calc(100% - 30rem) center; /* Position arrow 30rem from the right */
+  background-size: 20rem; /* Set a reasonable size for the custom arrow */
 }
 
 .schedule-wrapper .schedule-list-wrapper .class-wrapper .no-events-found {
