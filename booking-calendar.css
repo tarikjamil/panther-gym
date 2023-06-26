@@ -86,5 +86,7 @@
     border-width: 1px;
     border-style: solid;
     color: #b20a10;
+    padding: 8rem;
+    font-size: 16rem;
   }
 }
