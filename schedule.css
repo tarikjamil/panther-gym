@@ -142,7 +142,7 @@ div.book-now-lightbox.hidden {
 }
 
 .schedule-wrapper .filter-box .calendar-filters .calendar-input {
-  padding: 0;
+  padding: 4rem;
 }
 
 .schedule-wrapper .filter-box .calendar-filters input[type="search"] {
@@ -200,7 +200,7 @@ div.book-now-lightbox.hidden {
 }
 
 .calendar-view-dropdown {
-  height: 48rem;
+  padding: 4rem;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
