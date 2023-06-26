@@ -210,8 +210,8 @@ div.book-now-lightbox.hidden {
   /* Set custom arrow */
   background: url("https://uploads-ssl.webflow.com/6434424375de79147272efa4/649947c5e973d8c6cbfb37dd_Vector%201%20(Stroke).png")
     no-repeat;
-  background-position: calc(100% - 30rem) center; /* Position arrow 30rem from the right */
-  background-size: 20rem; /* Set a reasonable size for the custom arrow */
+  background-position: calc(100% - 10rem) center; /* Position arrow 30rem from the right */
+  background-size: 16rem; /* Set a reasonable size for the custom arrow */
 }
 
 .schedule-wrapper .schedule-list-wrapper .class-wrapper .no-events-found {
