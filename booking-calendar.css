@@ -46,26 +46,26 @@
 
 @media screen and (max-width: 767px) {
   .section.is--membership--hero {
-    height: 400rem;
+    height: 400rem !important;
   }
   .heading--80 {
     font-size: 48rem !important;
   }
 
   .wc-bookings-availability-main-container {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
   }
 
   .wc-bookings-availability-event-table {
-    padding-left: 0rem;
+    padding-left: 0rem !important;
   }
 
   .wc-bookings-availability-item-body {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: space-between;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: space-between !important;
   }
 
   .wp-block-button__link.wc-bookings-availability-book-button {
