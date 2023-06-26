@@ -10,6 +10,8 @@
   padding-right: 40rem;
   padding-bottom: 40rem;
   margin-top: -48rem !important;
+  position: relative;
+  background-color: white;
 }
 
 .section.is--membership--hero {
@@ -40,4 +42,33 @@
   background-color: #b20a10;
   border-radius: 100rem;
   color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .section.is--membership--hero {
+    height: 400rem;
+  }
+  .heading--80 {
+    font-size: 48rem !important;
+  }
+
+  .wc-bookings-availability-main-container {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .wc-bookings-availability-event-table {
+    padding-left: 0rem;
+  }
+
+  .wc-bookings-availability-item-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .wp-block-button__link.wc-bookings-availability-book-button {
+    width: 100% !important;
+  }
 }
