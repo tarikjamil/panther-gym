@@ -11,4 +11,8 @@
   background-color: #b20a10;
   display: flex;
   padding: 20rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
 }
