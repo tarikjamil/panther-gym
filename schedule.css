@@ -222,8 +222,7 @@ div.book-now-lightbox.hidden {
 .schedule-wrapper .schedule-list-wrapper .class-wrapper .single-event-wrapper {
   padding: 16rem;
   border-bottom: 1px solid black;
-  display: flex;
-  flex-direction: row;
+  grid-template-columns: 1fr 1fr auto;
   justify-content: space-between;
   min-width: 100%;
 }
