@@ -1,3 +1,15 @@
+.navbar .menu--link-row {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: black;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
 .wc-bookings-availability-main-container {
   max-width: 960rem;
   width: 100%;
