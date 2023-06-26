@@ -6,3 +6,7 @@
   padding-bottom: 144rem;
   padding-top: 48rem;
 }
+
+.section.is--membership--hero {
+  background-color: #b20a10;
+}
