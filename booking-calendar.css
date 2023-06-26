@@ -18,10 +18,10 @@
 }
 
 .heading--80 {
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 80rem;
-  font-weight: 700;
-  line-height: 1;
+  text-transform: uppercase !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  font-size: 80rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
 }
