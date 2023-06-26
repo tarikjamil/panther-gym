@@ -113,6 +113,14 @@ span.mepr-nav-item.mepr-active-nav-tab a {
   max-width: 1000rem !important;
 }
 
+.mepr-account-product {
+  font-size: 16rem;
+}
+
+.mepr-account-subscr-id {
+  font-size: 10rem;
+}
+
 @media screen and (max-width: 991px) {
   #account-parent .elementor-shortcode {
     display: flex;
