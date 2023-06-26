@@ -195,6 +195,10 @@ div.book-now-lightbox.hidden {
   border-right-width: 0 !important;
 }
 
+.calendar-filter-box.is--categories {
+  padding-top: 0px !important;
+}
+
 .schedule-wrapper .schedule-list-wrapper .class-wrapper .no-events-found {
   padding: 16rem;
   border-bottom: 1px solid black;
