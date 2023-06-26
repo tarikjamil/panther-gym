@@ -109,6 +109,10 @@ span.mepr-nav-item.mepr-active-nav-tab a {
   box-shadow: none !important;
 }
 
+.e-con > .e-con-inner {
+  max-width: 1000rem !important;
+}
+
 @media screen and (max-width: 991px) {
   #account-parent .elementor-shortcode {
     display: flex;
