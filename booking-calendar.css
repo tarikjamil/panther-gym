@@ -76,10 +76,15 @@
 
   .wc-bookings-availability-item-body {
     display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
+    grid-template-columns: 2fr 1fr !important;
   }
 
   .wp-block-button__link.wc-bookings-availability-book-button {
     width: 100% !important;
+    background-color: white;
+    border-color: #b20a10;
+    border-width: 1px;
+    border-style: solid;
+    color: #b20a10;
   }
 }
