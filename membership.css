@@ -103,6 +103,10 @@
   background-color: #f5f5f5 !important;
 }
 
+.container--960.is--membership form.cart {
+  display: none !important;
+}
+
 @media screen and (max-width: 767px) {
   .section.is--membership--hero {
     height: 200rem !important;
