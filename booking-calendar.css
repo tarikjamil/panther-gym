@@ -3,7 +3,7 @@
 }
 
 .navbar {
-  background-color: transparent !important;
+  background-color: white !important;
   color: black;
   transition-property: background-color;
   transition-duration: 200ms;
