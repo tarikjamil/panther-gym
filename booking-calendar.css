@@ -55,6 +55,7 @@
   .wc-bookings-availability-main-container {
     padding-left: 20rem !important;
     padding-right: 20rem !important;
+    margin-bottom: 0rem !important;
   }
 
   .wc-bookings-availability-event-table {
